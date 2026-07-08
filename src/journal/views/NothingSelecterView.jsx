@@ -4,6 +4,7 @@ import { Box, Grid, Typography } from "@mui/material"
 export const NothingSelecterView = () => {
   return (
     <Box
+          className='animate__animated animate__fadeIn animate__faster'
           component="main"
           sx={{
             display: "flex",
